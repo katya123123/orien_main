@@ -1,0 +1,533 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+  
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Лучшие решения для вашего бизнеса</h1>
+          <h2>Разработка ПО для вашего бизнеса от 20 000 рублей</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Узнать больше</a>          
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{% static 'img/hero-img.png' %}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'img/clients/caravan-logo.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'img/clients/stosa-logo.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'img/clients/logo-bookcourt.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'img/clients/logo-asialines.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'img/clients/logo-thearch.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'img/clients/logo-macdonner.png' %}" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>О нас побольше</h2>
+        </div>
+
+        <div class="row about content">
+          <div class="col-lg-6">
+            <p>
+              ОРАЙН – это креативная и технологичная команда, специализирующаяся на разработке веб-сайтов, программного обеспечения и чат-ботов
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Наши специалисты обладают высоким уровнем экспертизы в своей области, гарантируя вам выдающиеся результаты</li>
+              <li><i class="ri-check-double-line"></i>Мы ценим долгосрочные отношения с клиентами и стараемся быть всегда на шаг впереди, предоставляя решения для будущего</li>
+              <li><i class="ri-check-double-line"></i>Ваш успех – наш приоритет. Мы работаем с вами на каждом этапе проекта, чтобы удовлетворить ваши потребности и ожидания</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <img src="{% static 'img/about-2.jpg' %}" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Наши услуги</h2>
+      <p>Мы стремимся привнести инновации в бизнес-процессы наших клиентов, обеспечивая уникальные и эффективные решения любых потребностей вашего бизнеса</p>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bxl-dribbble"></i></div>
+          <h4><a href="#portfolio">Разработка сайтов</a></h4>
+          <p>Мы создаем современные, отзывчивые и функциональные веб-сайты, которые подчеркивают индивидуальность вашего бренда</p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-file"></i></div>
+          <h4><a href="#portfolio">Разработка чат-ботов</a></h4>
+          <p>Мы создаем интеллектуальных чат-ботов, способных обеспечить высококачественное обслуживание клиентов и оптимизировать взаимодействие с вашей аудиторией</p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-tachometer"></i></div>
+          <h4><a href="#portfolio">Разработка мобильных приложений</a></h4>
+          <p>Наш подход основан на тесном сотрудничестве с заказчиками. Мы стремимся полностью понять их потребности и цели, чтобы предложить наиболее эффективные и индивидуальные решения</p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-layer"></i></div>
+          <h4><a href="#portfolio">Разработка ПО и CRM-систем</a></h4>
+          <p>Наша команда разрабатывает индивидуальные программные продукты, автоматизирующие бизнес-процессы и повышающие эффективность</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="{% static 'img/skills.png' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Самый современный стек технологий - гарантия качества</h3>
+            <p class="fst-italic">
+              Мы постоянно следим за последними трендами в сфере веб-разработки и программирования, чтобы предоставлять нашим клиентам передовые технологии
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">.NET/C# <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Хотите автоматизировать бизнес-процессы?</h3>
+            <p>Остались вопросы? Хотите записаться на консультацию? Оставьте заявку в форме обратной связи: мы свяжемся с вами в ближайшее время.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#call-back">Перезвонить мне!</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Портфолио</h2>
+          <p>Мы гордимся высокими стандартами качества нашей работы. Мы понимаем, что каждый проект уникален. Наша команда готова разработать решение, которое точно соответствует вашим потребностям и бизнес-целям</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">Все проекты</li>
+          <li data-filter=".filter-site">Веб-сайты</li>
+          <li data-filter=".filter-app">Мобильные приложения</li>
+          <!--li data-filter=".filter-card">Чат-боты</li-->
+          <li data-filter=".filter-crm">ПО и CRM-системы</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-site">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/stosa/stosa-main.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>STOSA VL</h4>
+              <p>Веб-сайт</p>
+              <a href="{% static 'img/portfolio/stosa/stosa-main.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="STOSA VL"><i class="bx bx-plus"></i></a>
+              <a href="stosa" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/bookcourt/bookcourt-mp.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>BookCourt Mobile App</h4>
+              <p>Мобильное приложение</p>
+              <a href="{% static 'img/portfolio/bookcourt/bookcourt-mp.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="BookCourt Mobile App"><i class="bx bx-plus"></i></a>
+              <a href="bc-mp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-crm">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/bookcourt/crm-bookcourt.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>BookCourt CRM</h4>
+              <p>CRM</p>
+              <a href="{% static 'img/portfolio/bookcourt/crm-bookcourt.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="BookCourt CRM"><i class="bx bx-plus"></i></a>
+              <a href="bc-crm" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-site">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/caravancar/caravan-main.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Caravan Car</h4>
+              <p>Веб-сайт</p>
+              <a href="{% static 'img/portfolio/caravancar/caravan-main.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Caravan Car"><i class="bx bx-plus"></i></a>
+              <a href="caravan" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-site">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/macdoner/macdoner-main.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>MacDoner</h4>
+              <p>Веб-сайт</p>
+              <a href="{% static 'img/portfolio/macdoner/macdoner-main.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="MacDoner"><i class="bx bx-plus"></i></a>
+              <a href="macdoner" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-site">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/asialines/asialines-main.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Asia Lines</h4>
+              <p>Веб-сайт</p>
+              <a href="{% static 'img/portfolio/asialines/asialines-main.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Asia Lines"><i class="bx bx-plus"></i></a>
+              <a href="asialines" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/macdoner/macdoner-mp.png' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>MacDoner App</h4>
+              <p>Мобильное приложение</p>
+              <a href="{% static 'img/portfolio/macdoner/macdoner-mp.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="MacDoner мобильное приложение"><i class="bx bx-plus"></i></a>
+              <a href="mac-mp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-site">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/thearch/thearch-web.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>The Arch</h4>
+              <p>Веб-сайт</p>
+              <a href="{% static 'img/portfolio/thearch/thearch-web.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="The Arch"><i class="bx bx-plus"></i></a>
+              <a href="thearch" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-site">
+            <div class="portfolio-img"><img src="{% static 'img/portfolio/dega/dega-main.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DEGA</h4>
+              <p>Веб-сайт</p>
+              <a href="{% static 'img/portfolio/dega/dega-main.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="DEGA"><i class="bx bx-plus"></i></a>
+              <a href="dega" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Отзывы</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="{% static 'img/team/team-1.jpg' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Александр</h4>
+                <span>Генеральный директор компании AsiaLines</span>
+                <p>Мы исркенне благодарны команде разработки ОРАЙН за высококвалифицированный подход к разработке. Мы крайне довольны результатом!</p>
+          
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="{% static 'img/team/team-2.jpg' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Анна</h4>
+                <span>Генеральный директор компании The Arch</span>
+                <p>Профессионализм команды разработки гарантирует идеальный результат. С удовольствием продолжаю сотрудничество с ребятами!</p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="{% static 'img/team/team-3.jpg' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Виталий</h4>
+                <span>Менеджер компании STOSA VL</span>
+                <p>Работа с компандой нас крайне приятно удивила: каждый раз нам предлагали новые, креативные решения. В итоге мы получили идеальный результат!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="{% static 'img/team/team-4.jpg' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Евгения</h4>
+                <span>Генеральный директор компании Caravan Car</span>
+                <p>Мы и представить не могли, что получим настолько отличный результат. При этом результаты были дотигнуты в кратчайшие сроки без потери качества. С удовольствием рекомендую компанию!</p>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Цены на услуги</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 mt-4 mt-lg-0 " data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Разработка сайта</h3>
+              <h4>от 20 000<sup>₽</sup><span>за проект</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Составление индивидуального ТЗ</li>
+                <li><i class="bx bx-check"></i> Разработка уникального дизайна</li>
+                <li><i class="bx bx-check"></i> Разработка сайта</li>
+                <li><i class="bx bx-check"></i> Тестирование и доработка</li>
+                <li><i class="bx bx-check"></i> Базовая SEO-оптимизация страницы</li>
+                <li><i class="bx bx-check"></i> Хостинг В ПОДАРОК</li>
+              </ul>
+              <a href="#call-back" class="buy-btn">Хочу сайт!</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <h3>Разработка мобильного приложения</h3>
+              <h4>от 50 000<sup>₽</sup><span>за проект</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Составление индивидуального ТЗ</li>
+                <li><i class="bx bx-check"></i> Разработка уникального дизайна</li>
+                <li><i class="bx bx-check"></i> Разработка приложения под ключ</li>
+                <li><i class="bx bx-check"></i> Тестирование и доработка</li>
+                <li><i class="bx bx-check"></i> Размещение на платформах</li>
+                <li><i class="bx bx-check"></i> Пострелизное сопровождение</li>
+              </ul>
+              <a href="#call-back" class="buy-btn">Хочу мобильное приложение!</a>
+            </div>
+          </div>
+
+        </div>
+        <div class = "row">
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Разработка чат-бота</h3>
+              <h4>от 5000<sup>₽</sup><span>за проект</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Составление индивидуального ТЗ</li>
+                <li><i class="bx bx-check"></i> Разработка логической схемы работы</li>
+                <li><i class="bx bx-check"></i> Разработка визуального стиля</li>
+                <li><i class="bx bx-check"></i> Разработка чат-бота любой сложности</li>
+                <li><i class="bx bx-check"></i> Размещение бота в любом мессенджере</li>
+                <li><i class="bx bx-check"></i> Предоставляем подробную инструкцию</li>
+              </ul>
+              <a href="#call-back" class="buy-btn">Хочу чат-бот!</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Разработка ПО и CRM</h3>
+              <h4>от 80 000<sup>₽</sup><span>за проект</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Составление индивидуального ТЗ</li>
+                <li><i class="bx bx-check"></i> Разработка логической схемы работы</li>
+                <li><i class="bx bx-check"></i> Разработка уникального дизайна</li>
+                <li><i class="bx bx-check"></i> Разработка сервиса под ключ</li>
+                <li><i class="bx bx-check"></i> Тестирование и доработка</li>
+                <li><i class="bx bx-check"></i> Предоставляем подробную инструкцию</li>
+              </ul>
+              <a href="#call-back" class="buy-btn">Хочу свое ПО!</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Контакты</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>ИНН:</h4>
+                <p>2536335940</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Телефон:</h4>
+                <p>+7 914 323 68 27</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="call-back" class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Ваше имя</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Ваш email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Тема обращения</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Сообщение (дополнительно)</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Загрузка...</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Письмо успешно отправлено. Скоро мы с вами свяжемся!</div>
+              </div>
+              <div class="text-center"><button type="submit">Отправить</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+{% endblock %}

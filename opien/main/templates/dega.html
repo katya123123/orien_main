@@ -1,0 +1,72 @@
+{% extends 'header-card.html' %}
+{% load static %}
+{% block content %}
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Главная</a></li>
+          <li>DEGA</li>
+        </ol>
+        <h2>DEGA</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-start">
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/dega/dega-main.jpg' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/dega/dega-sec.jpg' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/dega/dega-main.jpg' %}" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Информация о проекте</h3>
+              <ul>
+                <li><strong>Категория</strong>: Веб-сайт</li>
+                <li><strong>Клиент</strong>: DEGA</li>
+                <li><strong>Дата проекта</strong>: 12.12.2023</li>
+                <li><strong>Стек технологий</strong>: HTML/Python/JS/CSS</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+                <h2>Проект по разработке сайта для DEGA</h2>
+                <p>
+                    Создание сайта похоже на создание нового, уникального, великолепного архитектурного решения. Архитектурное агненство в восторге!                </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main --> 
+
+{% endblock %}

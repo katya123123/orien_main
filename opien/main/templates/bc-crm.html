@@ -1,0 +1,72 @@
+{% extends 'header-card.html' %}
+{% load static %}
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Главная</a></li>
+          <li>Book Court CRM</li>
+        </ol>
+        <h2>Book Court CRM</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-start">
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/bookcourt/crm-bookcourt.png' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/bookcourt/bc-crm-2.png' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/bookcourt/bc-crm-3.png' %}" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Информация о проекте</h3>
+              <ul>
+                <li><strong>Категория</strong>: Мобильное приложение</li>
+                <li><strong>Клиент</strong>: BookCourt</li>
+                <li><strong>Дата проекта</strong>: 12.12.2023</li>
+                <li><strong>Стек технологий</strong>: HTML/Python/JS/CSS</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Проект по разработке CRM для Book Court</h2>
+              <p>
+                Начинающий стартап как никто другой нуждается в идеальном техническом обеспечении. Мы предоставили такую возможность!              
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+{% endblock %}

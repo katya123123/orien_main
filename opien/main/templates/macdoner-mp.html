@@ -1,0 +1,73 @@
+{% extends 'header-card.html' %}
+{% load static %}
+{% block content %}
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Главная</a></li>
+          <li>MacDoner mobile</li>
+        </ol>
+        <h2>MacDoner mobile</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-start">
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/macdoner/macdoner-mp.png' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/macdoner/mac-mp-2.png' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'img/portfolio/macdoner/mac-mp-3.png' %}" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Информация о проекте</h3>
+              <ul>
+                <li><strong>Категория</strong>: Мобильное приложение</li>
+                <li><strong>Клиент</strong>: MacDoner</li>
+                <li><strong>Дата проекта</strong>: 12.12.2023</li>
+                <li><strong>Стек технологий</strong>: HTML/Python/JS/CSS</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+                <h2>Проект по разработке мобильного приложения для MacDoner</h2>
+                <p>
+                    Мобильное приложение стало настоящим произведением искусства для компании по производству и продаже фудтраков. Даже 3D модельки использовали.
+                </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  {% endblock %}
