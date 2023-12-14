@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Лучшие решения для вашего бизнеса</h1>
-          <h2>Разработка ПО для вашего бизнеса от 20 000 рублей</h2>
+          <h2>Разработка ПО для вашего бизнеса</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Узнать больше</a>          
           </div>
@@ -498,28 +498,29 @@
             <div class="php-email-form">
               <div class="row">
                 <div id="name" class="form-group col-md-6">
-                  <label for="name">Ваше имя</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <label for="name">Ваше имя (обязательно)</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Имя" required>
                 </div>
                 <div id="email" class="form-group col-md-6">
-                  <label for="name">Ваш email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <label for="name">Email (обязательно)</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="example@email.ru" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Сообщение (дополнительно)</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <label for="name">Сообщение</label>
+                <textarea class="form-control" name="message" rows="10" placeholder="Ваше сообщение" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Загрузка...</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Письмо успешно отправлено. Скоро мы с вами свяжемся!</div>
+              <div id='sucs' class="sucs">
+                <p id="status"></p>
               </div>
-              <div class="text-center"><button type="submit" onclick="form()">Отправить</button></div>
+              <div class="text-center"><button type="submit">Отправить</button></div>
             </div>
           </div>
 
         </div>
+
+
+
 
       </div>
     </section><!-- End Contact Section -->

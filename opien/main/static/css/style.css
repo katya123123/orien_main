@@ -1832,3 +1832,15 @@ section {
     text-align: left !important;
   }
 }
+
+
+.sucs {
+  top: 40px;
+  left: 10%;
+  right: 10%;
+  background: #fff;
+  color:#28a745;
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
