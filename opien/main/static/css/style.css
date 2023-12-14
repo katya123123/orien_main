@@ -557,12 +557,17 @@ section {
   text-align: center;
 }
 
+.clients .client {
+  cursor: pointer;
+}
+
 .cliens img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
   filter: grayscale(100);
+  cursor: pointer;
 }
 
 .cliens img:hover {
@@ -1821,5 +1826,9 @@ section {
   }
   #footer .credits {
     padding-top: 4px;
+  }
+
+  #footer .footer-about {
+    text-align: left !important;
   }
 }
