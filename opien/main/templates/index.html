@@ -498,25 +498,29 @@
             <div class="php-email-form">
               <div class="row">
                 <div id="name" class="form-group col-md-6">
-                  <label for="name">Ваше имя (обязательно)</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Имя" required>
+                  <label for="name">Ваше имя</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div id="email" class="form-group col-md-6">
-                  <label for="name">Email (обязательно)</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="example@email.ru" required>
+                  <label for="name">Ваш email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Сообщение</label>
-                <textarea class="form-control" name="message" rows="10" placeholder="Ваше сообщение" required></textarea>
+                <label for="name">Сообщение (дополнительно)</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
-              <div id='sucs' class="sucs">
-                <p id="status"></p>
+              <div class="my-3">
+                <div class="loading">Загрузка...</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Письмо успешно отправлено. Скоро мы с вами свяжемся!</div>
               </div>
               <div class="text-center"><button type="submit">Отправить</button></div>
             </div>
           </div>
 
+
+          
         </div>
 
 
